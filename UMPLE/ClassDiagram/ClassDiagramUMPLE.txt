@@ -1,0 +1,45 @@
+class EXPO {
+
+  class Prosjekt {
+    Integer prosjektID;
+    prosjektnavn;
+    prosjektbeskrivelse;
+    * -- 1 Arrangement;
+    1 -- * Stemme;
+    * -- 1 Bedrift;
+    * -- 1 Studie;
+  }
+
+  class Stemme {
+    Integer stemmeID;
+    epost;
+    Integer stemmeverdi;
+    Time stemmetidspunkt;
+    * -- 1 Arrangement;
+  }
+
+  class Arrangement {
+    Integer arrangementID;
+    arrangementnavn;
+    arrangementbeskrivelse;
+  }
+
+  class Bedrift {
+    Integer bedriftID;
+    bedriftnavn;
+    bedriftbeskrivelse;
+  }
+
+  class Kategori {
+    Integer kategoriID;
+    kategorinavn;
+  }
+
+  class Studie {
+    Integer studieID;
+    studienavn;
+    studiebeskrivelse;
+    * -- 1 Kategori;
+  }
+
+}
