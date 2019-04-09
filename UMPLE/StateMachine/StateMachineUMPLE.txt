@@ -1,57 +1,57 @@
 class EXPO {
 
   Frontpage {
-   		Welcome {
-			   entry / {chooseOption();}
-			   loginOption -> Login;
-			   registerOption -> Register;
-  		}
+    Welcome {
+	    entry / {chooseOption();}
+		  loginOption -> Login;
+		  registerOption -> Register;
+  	}
 
-		 Login {
-      	 entry / {logInWithUserInfo();}
-      	 userFound -> LoggedIn;
-     		 userNotFound -> LoginFailed;
-  	 }
+		Login {
+      entry / {logInWithUserInfo();}
+      userFound -> LoggedIn;
+      userNotFound -> LoginFailed;
+  	}
 
-     LoggedIn {
-     		 entry / {showAllProjects()};
-  	 }
+    LoggedIn {
+      entry / {showAllProjects()};
+  	}
 
-     LoginFailed {
-     		 entry / {showErrorMessage();}
-     		 -> Register;
-   	 }
+    LoginFailed {
+     	entry / {showErrorMessage();}
+      -> Register;
+   	}
 
-	   Register {
-		   entry / {enterUserInfo();}
-		   exit / {registerUserInfo();}
-       registered -> Login;
-       userAlreadyExists -> Register;
-    }
+	  Register {
+		  entry / {enterUserInfo();}
+		  exit / {registerUserInfo();}
+      registered -> Login;
+      userAlreadyExists -> Register;
+   }
 
   }
 
  	Feedback {
-	   ChooseProject {
-		   entry/{chooseProject();}
-		   projectIsChosen -> Rating;
-		 }
+	 ChooseProject {
+		  entry/{chooseProject();}
+		  projectIsChosen -> Rating;
+	 }
 
-		 Rating {
-		   entry / {chooseRating();}
-			 exit / {registerRating();}
-			 ratingCompleted -> Rated;
-			 ratingFailed -> RatingFailed;
-		 }
+	 Rating {
+		  entry / {chooseRating();}
+			exit / {registerRating();}
+			ratingCompleted -> Rated;
+			ratingFailed -> RatingFailed;
+	 }
 
-		 Rated {
-			 entry/{showRating();}
-		 }
+	 Rated {
+			entry/{showRating();}
+	 }
 
-		 RatingFailed {
-			 entry/{showErrorMessage();}
-			 -> ChooseProject;
-		 }
+	 RatingFailed {
+			entry/{showErrorMessage();}
+			-> ChooseProject;
+	 }
 
 	}
 
