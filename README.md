@@ -4,6 +4,7 @@ Gruppe: Raida, Enah, Arja og Sondre
 ✨✨✨✨✨✨✨
 
 
+
 1. UMPLE:
 
 DEL 1: Bli kjent med UMPLE
@@ -19,6 +20,7 @@ Punktene under DEL 2 (modeller, kode og diskusjonen) skal leveres under mappa UM
 
 
 
+
 2. BOOKSTORE:
 
 DEL 1: Bli kjent med IFML og WebRatio
@@ -30,8 +32,10 @@ OPPDATERING: Basert på samtale med studentassitenten og forespørsler med noen 
 
 2. Denne applikasjonen har en fasit som dere også finner i WebRatio verktøyet når den er installert.
 
+
 DEL 3: Krav til innlevering
 Hele WebRatio prosjektet skal dyttet opp på gruppens repository under mappen Bookstore.
+
 
 
 
