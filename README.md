@@ -1,8 +1,10 @@
 # 2019-DAT109-Modelldrevet-utvikling-2
 Gruppe: Raida, Enah, Arja og Sondre
 
-✨✨✨✨✨
+✨✨✨✨✨✨✨
+
 1. UMPLE:
+
 DEL 1: Bli kjent med UMPLE
 
 DEL 2: Bruk UMPLE
@@ -16,6 +18,7 @@ Punktene under DEL 2 (modeller, kode og diskusjonen) skal leveres under mappa UM
 
 
 2. BOOKSTORE:
+
 DEL 1: Bli kjent med IFML og WebRatio
 
 DEL 2: Bookstore
@@ -23,14 +26,16 @@ Følg instruksene steg for steg og lag applikasjon Online BookstoreFørehandsvis
 Denne applikasjonen har en fasit som dere også finner i WebRatio verktøyet når den er installert, for eksempel se her (Lenker til eit ekstern område.)Lenker til eit ekstern område. 
  
 DEL 3: Krav til innlevering
-Hele WebRatio prosjektet skal dyttet opp på gruppens repository under mappen Bookstore
+Hele WebRatio prosjektet skal dyttet opp på gruppens repository under mappen Bookstore.
 
 DEL 4: Formalisering og semantikk (valgfritt)
 
 
 3. EXPO applikasjon i WebRatio:
+
 Bruke IFML og WebRatio til å utvikle EXPO applikasjonen.
 
 Modeller og kode skal leveres under egen mappe i ditt Git repository. 
+
 
 
